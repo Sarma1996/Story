@@ -1,0 +1,174 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  text-align: center;
+}
+
+.colored-section {
+  background-color: #7DF9FF;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*Reviews*/
+
+#testimonials {
+  background-color: #89CFF0;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+  
+/*pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+  .container-fluid{
+    padding: 7% 15%;
+  }
+
+  .carousel-control-prev-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .carousel-control-next-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 1000px;
+    font-size: 5px;
+  }
+
+
+  #contact{
+    font-family: monospace;
+    background-color:#575454;
+    color: #fff;
+  }
+
+  .heading{
+      text-align: center;
+      font-size: 45px;
+      border-bottom: 2px dotted #fff;
+      font-family: monospace;
+  }
+
+  .second{
+    font-family: monospace;
+  }
+
+  .main{
+      background-color: #696868;
+  }
+
+  .btn-info{
+      width: 50%;
+      letter-spacing: 2px;
+      background: transparent;
+      transition: all 0.5s ease-in-out;
+  }
+  .btn-info:hover{
+      transform: scale(1.05);
+  }
+
+  .icn{
+      font-family: monospace;
+      font-size: 17px;
+  }
+
+  hr{
+    width: 100%;
+    background-color:#fff;
+    height: 1px;
+    border: 0;
+}
+  .social-icon:hover{
+      color: #999;
+      cursor: pointer;
+  }
+
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  .style-remove{
+    all: revert;
+  }
+
+
+
+  .about {
+    background-color:white;
+    text-align: center;
+  }
+  
+  .about h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #88941e;
+    margin-bottom: 50px;
+}
+
+.about h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #c4d156;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+
+}
+  
+.about h5{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.about p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-collapse{
+  text-align: center;
+}
+
+
+.navbar .navbar-brand{
+  position: relative;
+  right: 5%;
+}
